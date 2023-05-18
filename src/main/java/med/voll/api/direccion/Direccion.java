@@ -18,10 +18,6 @@ public @Data class Direccion {
 	private String distrito;
 	private String ciudad;
 	
-	public Direccion() {
-		
-	}
-	
 	public Direccion(DatosDireccion direccion) {
 		this.calle=direccion.calle();
 		this.numero=direccion.numero();
