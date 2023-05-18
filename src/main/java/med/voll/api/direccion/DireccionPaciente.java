@@ -29,4 +29,14 @@ public @Data class DireccionPaciente {
 		this.codigopostal=datosDireccionPaciente.codigopostal();
 		this.provincia=datosDireccionPaciente.provincia();
 	}
+
+	public void actualizarInformacion(DatosDireccionPaciente direccion) {
+		this.urbanización=direccion.urbanización();
+		this.numero=direccion.numero();
+		this.distrito=direccion.distrito();
+		this.complemento=direccion.complemento();
+		this.ciudad=direccion.ciudad();
+		this.codigopostal=direccion.codigopostal();
+		this.provincia=direccion.provincia();
+	}
 }
